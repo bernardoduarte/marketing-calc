@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "tsc && node index.js",
-    "test": "tsc && jasmine"
+    "test": "tsc && jasmine --config=tests/support/jasmine.json"
   },
   "repository": {
     "type": "git",
