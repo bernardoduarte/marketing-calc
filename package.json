@@ -1,0 +1,29 @@
+{
+  "name": "marketing-calc",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node index.js",
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bernardoduarte/marketing-calc.git"
+  },
+  "keywords": [
+    "marketing"
+  ],
+  "author": "Bernardo Duarte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bernardoduarte/marketing-calc/issues"
+  },
+  "homepage": "https://github.com/bernardoduarte/marketing-calc#readme",
+  "dependencies": {
+    "typescript": "^4.1.5"
+  },
+  "devDependencies": {
+    "jasmine": "^3.6.4"
+  }
+}
