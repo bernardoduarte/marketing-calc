@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist/out-tsc/lib",
+    "typeRoots": ["node_modules/@types"],
+    "esModuleInterop": true,
+    "declaration": true
+  }
+}
