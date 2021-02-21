@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "",
   "main": "dist/out-tsc/lib/index.js",
+  "types": "dist/out-tsc/lib/index.d.ts",
   "scripts": {
     "build": "tsc -p tsconfig.lib.json",
     "test": "tsc -p tsconfig.spec.json && jasmine --config=tests/support/jasmine.json"
